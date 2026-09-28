@@ -11,7 +11,7 @@ app.set("views", path.join(__dirname, "views"));
 app.get("/", (req, res) => {
     res.render("home", {
         title: "Week 7 - Server-Side Rendering",
-        studentName: "Bhavana",
+        studentName: "Srujana",
         course: "Full Stack Development",
         message: "Welcome to server-side rendering with EJS!"
     });
